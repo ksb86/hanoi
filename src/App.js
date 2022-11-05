@@ -25,7 +25,8 @@ const stepsSolution = [
     'acabcbacbabcacabcbcabacbacabcbacbabcacbacbcababcacabcbacbabcacabcbcabacbacabcbcababcacbacbcabacbacabcbacbabcacabcbcabacbacabcbacbabcacbacbcababcacabcbacbabcacbacbcabacbacabcbcababcacbacbcababcacabcbacbabcacabcbcabacbacabcbacbabcacbacbcababcacabcbacbabcac', // 7
     'abacbcabcacbabacbcbacabcabacbcabcacbabcabcbacacbabacbcabcacbabacbcbacabcabacbcbacacbabcabcbacabcabacbcabcacbabacbcbacabcabacbcabcacbabcabcbacacbabacbcabcacbabcabcbacabcabacbcbacacbabcabcbacacbabacbcabcacbabacbcbacabcabacbcabcacbabcabcbacacbabacbcabcacbabacbcbacabcabacbcbacacbabcabcbacabcabacbcabcacbabacbcbacabcabacbcbacacbabcabcbacacbabacbcabcacbabcabcbacabcabacbcbacacbabcabcbacabcabacbcabcacbabacbcbacabcabacbcabcacbabcabcbacacbabacbcabcacbabacbcbacabcabacbcbacacbabcabcbacabcabacbcabcacbabacbcbacabcabacbc', // 8
     'acabcbacbabcacabcbcabacbacabcbacbabcacbacbcababcacabcbacbabcacabcbcabacbacabcbcababcacbacbcabacbacabcbacbabcacabcbcabacbacabcbacbabcacbacbcababcacabcbacbabcacbacbcabacbacabcbcababcacbacbcababcacabcbacbabcacabcbcabacbacabcbacbabcacbacbcababcacabcbacbabcacabcbcabacbacabcbcababcacbacbcabacbacabcbacbabcacabcbcabacbacabcbcababcacbacbcababcacabcbacbabcacbacbcabacbacabcbcababcacbacbcabacbacabcbacbabcacabcbcabacbacabcbacbabcacbacbcababcacabcbacbabcacabcbcabacbacabcbcababcacbacbcabacbacabcbacbabcacabcbcabacbacabcbacbabcacbacbcababcacabcbacbabcacbacbcabacbacabcbcababcacbacbcababcacabcbacbabcacabcbcabacbacabcbacbabcacbacbcababcacabcbacbabcacbacbcabacbacabcbcababcacbacbcabacbacabcbacbabcacabcbcabacbacabcbcababcacbacbcababcacabcbacbabcacbacbcabacbacabcbcababcacbacbcababcacabcbacbabcacabcbcabacbacabcbacbabcacbacbcababcacabcbacbabcacabcbcabacbacabcbcababcacbacbcabacbacabcbacbabcacabcbcabacbacabcbacbabcacbacbcababcacabcbacbabcacbacbcabacbacabcbcababcacbacbcababcacabcbacbabcacabcbcabacbacabcbacbabcacbacbcababcacabcbacbabcac', // 9
-]
+];
+// todo: algorithm
 
 export default function App() {
     const ref = useRef(null);
@@ -35,7 +36,7 @@ export default function App() {
     const [game, setGame] = useState({
         posts: [{
             postId: 'a',
-            rings: [1,2,3,4,5,6,7,8,9,10],
+            rings: [1,2,3,4,5,6,7,8,9],
             selected: false,
         }, {
             postId: 'b',
